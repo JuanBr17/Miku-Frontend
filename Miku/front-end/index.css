@@ -1,0 +1,23 @@
+#mikulogo{
+    width: 100px;
+}
+.circle{
+    content: none;
+    border: 20px #87e7ff solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+.row{
+    display: grid;
+    width: 100%;
+}
+#cir1{
+    justify-self: end;
+}
+#signin{
+    width: 100px
+}
+.d-flex{
+    gap: 10px
+}
