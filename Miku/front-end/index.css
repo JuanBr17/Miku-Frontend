@@ -1,12 +1,26 @@
-#mikulogo{
-    width: 100px;
+#mikufondo{
+    width: 99%;
+    height: 100%;
+    border-radius: 0px 0px 400px 400px;
 }
-.circle{
-    content: none;
-    border: 20px #87e7ff solid;
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
+.fondo{
+    background-color: #2b2a2a;
+}
+#mikulogo{
+    width: 150px;
+}
+.navbar{
+    padding: 0%;
+}
+.container-fluid{
+    background-color: #2b2a2a;
+    height: 100px;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.nav-link{
+    color: #b2e4f7;
 }
 .row{
     display: grid;
@@ -20,4 +34,65 @@
 }
 .d-flex{
     gap: 10px
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+.modal-header{
+    font-family: 'Groutpix F Torch', sans-serif;
+}
+
+#email, #passw{
+    width: 300px;
+    margin: auto;
+    border-radius: 30px;
+    font-family: 'DO Futuristic', sans-serif;
+}
+.lab-modal{
+    margin-left: 90px;
+    font-family:'Groutpix F Torch', sans-serif;
+}
+.modal-content{
+    border-radius: 30px;
+    background: #b2e4f7;
+    background: linear-gradient(180deg,#0c91a8 0%, rgb(129, 187, 241) 34%, rgb(43, 108, 161) 57%, rgba(65, 86, 166, 1) 74%, rgb(95, 90, 250) 100%, rgba(108, 67, 222, 1) 100%);
+}
+.btn{
+    border-radius: 15px;
+}
+.btn-mod{
+    background-color: #bef5ff;
+    box-shadow: 1px 3px 4px #2b2a2a;
+    font-family:'Groutpix F Torch', sans-serif;
+    font-size: 12px;
+}
+#carouselExampleCaptions{
+    display: flex;
+    justify-self: center;
+    width: 800px;
+}
+.idols{
+    border-radius: 3px;
+}
+.row{
+    display: grid;
+    background-color: #2b2a2a;
+}
+#CD{
+    height: 300px;
+    grid-row-start: auto;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate{
+    animation: rotate 2s linear infinite;
 }
