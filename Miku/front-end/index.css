@@ -1,5 +1,5 @@
 #mikufondo{
-    width: 99%;
+    width: 100%;
     height: 100%;
     border-radius: 0px 0px 400px 400px;
 }
@@ -67,21 +67,23 @@
     font-family:'Groutpix F Torch', sans-serif;
     font-size: 12px;
 }
-#carouselExampleCaptions{
-    display: flex;
-    justify-self: center;
-    width: 800px;
-}
+
 .idols{
     border-radius: 3px;
 }
 .row{
     display: grid;
     background-color: #2b2a2a;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: auto;
 }
 #CD{
-    height: 300px;
-    grid-row-start: auto;
+    height: 80%;
+}
+.CD{
+    display: flex;
+    justify-content: end;
 }
 
 @keyframes rotate {
@@ -95,4 +97,8 @@
 
 .rotate{
     animation: rotate 2s linear infinite;
+}
+.voice{
+    color: #fff;
+    align-content: center;
 }
