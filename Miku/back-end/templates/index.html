@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vocaloid World</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for ('static', filename='index.css')}}">
+        <link href="https://fonts.cdnfonts.com/css/groutpix-f-torch" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+        <style>
+        @import url('https://fonts.cdnfonts.com/css/do-futuristic');
+        @import url('https://fonts.cdnfonts.com/css/groutpix-f-torch');
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script href="/front-end/index.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ url_for ('static', filename='imagenes/miku.png')}}" id="mikulogo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Buy Tickets</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Idols
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Kagamine">Kagamine</a></li>
+                        <li><a class="dropdown-item" href="#Kaito">Kaito</a></li>
+                        <li><a class="dropdown-item" href="#Megurine">Megurine</a></li>
+                    </ul>
+                </ul>
+                <a href="{{url_for ('add')}}"><button>aaa</button></a>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" id="signin" type="submit">Sign up
+                        <!-- Button trigger modal -->
+                        
+                        
+                        <button type="button" class="btn btn-mod" id="btnmodal">Open</button>
+                        <div class="modal-container">
+                            <div class="modal-content">
+                                <form method="POST">
+                                    <label for="" class="lab-modal">User</label>
+                                    <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                                    <label for="" class="lab-modal">Password</label>
+                                    <input type="password" name="passw" id="passw" placeholder="Enter your password">
+                                    <div class="mod-footer">
+                                        <input type="submit" class="btn btn-mod" value="Save Changes">
+                                    </div>
+                                </form>
+                                <button type="button" class="btn btn-close">Close</button>
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+</nav>
+<div class="fondo">
+    <img src="{{ url_for ('static', filename='imagenes/fondo.jpg')}}" alt="" id="mikufondo">
+</div>
+<div class="row">
+    <div class="CD">
+        <img src="{{ url_for ('static', filename='imagenes/CD_icon_test.svg')}}" alt="" id="CD" class="rotate">
+    </div>
+    <div class="voice">Click here to get a try of Miku's Voice</div>
+</div>
+</body>
+</html>

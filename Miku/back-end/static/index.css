@@ -1,0 +1,115 @@
+#mikufondo{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 400px 400px;
+}
+.fondo{
+    background-color: #2b2a2a;
+}
+#mikulogo{
+    width: 150px;
+}
+.navbar{
+    padding: 0%;
+}
+.container-fluid{
+    background-color: #2b2a2a;
+    height: 100px;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.nav-link{
+    color: #b2e4f7;
+}
+.row{
+    display: grid;
+    width: 100%;
+}
+#cir1{
+    justify-self: end;
+}
+#signin{
+    width: 100px
+}
+.d-flex{
+    gap: 10px
+}
+.modal-container{
+    /* display: none; */
+    background-color: rgb(0, 0, 0, 0.3);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email, #passw{
+    width: 300px;
+    margin: auto;
+    border-radius: 30px;
+    font-family: 'DO Futuristic', sans-serif;
+}
+.lab-modal{
+    margin-left: 90px;
+    font-family:'Groutpix F Torch', sans-serif;
+}
+.modal-content{
+    border-radius: 30px;
+    height: 250px;
+    width: 450px;
+    background: #b2e4f7;
+    background: linear-gradient(180deg,#0c91a8 0%, rgb(129, 187, 241) 34%, rgb(43, 108, 161) 57%, rgba(65, 86, 166, 1) 74%, rgb(95, 90, 250) 100%, rgba(108, 67, 222, 1) 100%);
+}
+.btn{
+    border-radius: 15px;
+}
+.btn-mod{
+    background-color: #bef5ff;
+    box-shadow: 1px 3px 4px #2b2a2a;
+    font-family:'Groutpix F Torch', sans-serif;
+    font-size: 12px;
+    width: 100px;
+}
+.btn-close{
+    
+}
+
+.idols{
+    border-radius: 3px;
+}
+.row{
+    display: grid;
+    background-color: #2b2a2a;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: auto;
+}
+#CD{
+    height: 80%;
+}
+.CD{
+    display: flex;
+    justify-content: end;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate{
+    animation: rotate 2s linear infinite;
+}
+.voice{
+    color: #fff;
+    align-content: center;
+}
